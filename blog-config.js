@@ -11,7 +11,7 @@ module.exports = {
     email: "wskim.dev@gmail.com",
   },
   utterances: {
-    repo: "muthaben/muthaben.github.io", // "devHudi/gatsby-starter-hoodie"
+    repo: "muthaben/blog-comments", // "devHudi/gatsby-starter-hoodie"
     type: "pathname",
   },
 }
