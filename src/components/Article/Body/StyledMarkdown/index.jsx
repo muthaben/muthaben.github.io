@@ -43,20 +43,20 @@ const StyledMarkdown = styled.div`
   }
 
   & h2 {
-    margin-top: 64px;
-    margin-bottom: 24px;
+    margin-top: 60px;
+    margin-bottom: 10px;
     font-size: 28px;
   }
 
   & h3 {
-    margin-top: 48px;
-    margin-bottom: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     font-size: 22.4px;
   }
 
   & h4 {
-    margin-top: 32px;
-    margin-bottom: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 17.6px;
   }
 
