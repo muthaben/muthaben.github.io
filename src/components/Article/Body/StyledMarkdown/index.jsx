@@ -21,7 +21,7 @@ const StyledMarkdown = styled.div`
   & img,
   & .katex-display {
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
 
   & p {
