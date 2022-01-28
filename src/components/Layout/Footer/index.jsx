@@ -22,9 +22,8 @@ const Footer = () => {
     <FooterWrapper>
       © {title}, Built with {" "}
       <a href="https://github.com/devHudi/gatsby-starter-hoodie" target="blank">
-        gatsby-starter-hoodie
+        Gatsby(gatsby-starter-hoodie theme)
       </a>{" "}
-      theme.
     </FooterWrapper>
   )
 }
