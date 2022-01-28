@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Muthaben's Library]]></title><description><![CDATA[하려면 방법을 찾고 피하려면 핑계를 찾는다]]></description><link>https://muthaben.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 27 Jan 2022 12:25:04 GMT</lastBuildDate><item><title><![CDATA[운영 체제와 프로그램]]></title><description><![CDATA[운영 체제(operating system…]]></description><link>https://muthaben.github.io/cs1/</link><guid isPermaLink="false">https://muthaben.github.io/cs1/</guid><pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;운영 체제(operating system)&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Muthaben's Library]]></title><description><![CDATA[하려면 방법을 찾고 피하려면 핑계를 찾는다]]></description><link>https://muthaben.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 28 Jan 2022 03:11:33 GMT</lastBuildDate><item><title><![CDATA[프로세스와 스레드]]></title><description><![CDATA[프로세스(process…]]></description><link>https://muthaben.github.io/prcess-thread/</link><guid isPermaLink="false">https://muthaben.github.io/prcess-thread/</guid><pubDate>Fri, 28 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;프로세스(process)&lt;/h2&gt;
+&lt;p&gt;현재 메모리 상에서 실행되고 있는 &lt;code class=&quot;language-text&quot;&gt;동적 상태&lt;/code&gt;의 프로그램이다.&lt;br&gt;
+운영 체제에게서 할당받은 자신만의 고유한 메모리 영역과 자원을 &lt;strong&gt;독자적으로 사용&lt;/strong&gt;하며, 다른 프로세스와 자원을 공유(변수, 자료 구조에 직접 접근)할 수 없다.&lt;br&gt;
+프로그램을 구성하는 &lt;strong&gt;코드&lt;/strong&gt;, 프로그램 실행에 필요한 &lt;strong&gt;데이터&lt;/strong&gt; 등으로 구성되어 있다.&lt;/p&gt;
+&lt;h2&gt;스레드(thread)&lt;/h2&gt;
+&lt;p&gt;프로세스 내에서 실행되는 작업 흐름의 단위, 프로세스가 할당 받은 자원을 실행하는 단위다.&lt;br&gt;
+하나의 프로세스가 생성될 때 최소 하나 이상의 스레드(메인 스레드)도 함께 생성된다.&lt;br&gt;
+프로세스의 자원을 같은 프로세스 내의 &lt;strong&gt;다른 스레드와 공유하며 사용&lt;/strong&gt;한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[운영 체제와 프로그램]]></title><description><![CDATA[운영 체제(operating system…]]></description><link>https://muthaben.github.io/os-program/</link><guid isPermaLink="false">https://muthaben.github.io/os-program/</guid><pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;운영 체제(operating system)&lt;/h2&gt;
 &lt;h3&gt;정의와 기능&lt;/h3&gt;
 &lt;p&gt;운영 체제는 컴퓨터 하드웨어와 응용 프로그램을 제어 및 관리하는 &lt;strong&gt;소프트웨어, 메인 프로그램&lt;/strong&gt;이다.&lt;br&gt;
 그래서 사용자가 컴퓨터를 편리하고 효율적으로 사용할 수 있도록 도와준다.&lt;br&gt;
@@ -10,17 +17,14 @@
 &lt;code class=&quot;language-text&quot;&gt;디스크&lt;/code&gt; 데이터와 프로그램을 &lt;strong&gt;영구 저장&lt;/strong&gt;&lt;br&gt;
 &lt;code class=&quot;language-text&quot;&gt;입출력, 네트워크 장치&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;구성&lt;/h3&gt;
+&lt;h3&gt;구조&lt;/h3&gt;
 &lt;p&gt;운영 체제는 크게 &lt;strong&gt;커널&lt;/strong&gt;(kernel)과 &lt;strong&gt;쉘&lt;/strong&gt;(shell)로 구성되어 있다.&lt;/p&gt;
 &lt;p&gt;커널은 운영 체제의 핵심으로서 &lt;strong&gt;하드웨어를 직접 제어&lt;/strong&gt;하며 운영 체제가 수행하는 모든 것을 저장한다. 운영 체제에서 하드웨어와 가장 가깝게 위치하여 소프트웨어의 요청을 하드웨어가 처리할 수 있도록 변환한다.&lt;/p&gt;
 &lt;p&gt;쉘은 명령어 해석기(command interpreter)라고도 불린다. 운영 체제에서 사용자와 가장 가깝게 위치하여 사용자의 &lt;strong&gt;명령을 해석&lt;/strong&gt;하여 커널에 전달하고 &lt;strong&gt;처리된 정보를 출력&lt;/strong&gt;한다. 명령은 GUI(Graphical User Interface)와 CLI(Command Line Interface) 같은 방식을 사용한다.&lt;/p&gt;
 &lt;h2&gt;프로그램(program)&lt;/h2&gt;
-&lt;p&gt;특정 작업을 수행하는 일련의 &lt;strong&gt;명령어 모음&lt;/strong&gt;으로 개발자가 작성한 &lt;code class=&quot;language-text&quot;&gt;코드&lt;/code&gt;가 컴퓨터가 이해할 수 있는 언어로 번역(컴파일러 또는 인터프리터 사용)된 것이다.&lt;br&gt;
-&lt;strong&gt;program&lt;/strong&gt;의 사전 정의(a &lt;code class=&quot;language-text&quot;&gt;series&lt;/code&gt; of coded software instrunctions to control the operation of a computer or other machine)에서도 알 수 있듯이 &lt;strong&gt;순서&lt;/strong&gt;가 중요하다.&lt;/p&gt;
-&lt;h3&gt;응용 프로그램(application program)&lt;/h3&gt;
-&lt;p&gt;사용자가 실행하는 다양한 프로그램으로 앱(app) 또는 애플리케이션(application)이라고도 한다.&lt;/p&gt;
+&lt;p&gt;특정 작업을 수행하는 일련의 &lt;strong&gt;명령어 모음&lt;/strong&gt;으로 &lt;code class=&quot;language-text&quot;&gt;정적 상태&lt;/code&gt;의 실행 파일이다.&lt;br&gt;
+개발자가 프로그래밍 언어로 작성한 &lt;code class=&quot;language-text&quot;&gt;코드&lt;/code&gt;로 이루어져 있으며 보조기억 장치에 저장되어 있다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;프로세스(process)&lt;/strong&gt;&lt;br&gt;
-운영 체제에서 현재 &lt;strong&gt;실행 중&lt;/strong&gt;인 하나의 프로그램이다.&lt;br&gt;
-프로그램을 구성하는 &lt;strong&gt;코드&lt;/strong&gt;, 프로그램 실행에 필요한 &lt;strong&gt;데이터&lt;/strong&gt; 등으로 구성되어 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;응용 프로그램(application program)&lt;/strong&gt;&lt;br&gt;
+사용자가 실행하는 다양한 프로그램으로 &lt;code class=&quot;language-text&quot;&gt;애플리케이션(application)&lt;/code&gt;이라고도 한다.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item></channel></rss>
