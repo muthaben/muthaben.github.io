@@ -161,7 +161,7 @@ const StyledMarkdown = styled.div`
   }
 
   & li {
-    margin-bottom: 12.8px;
+    margin-bottom: 5px;
   }
 
   & li p {
