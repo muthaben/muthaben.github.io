@@ -47,9 +47,9 @@ tags:
 
 <출처>
 
-- https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works
-- https://tcpschool.com/webbasic/intro
-- https://tcpschool.com/webbasic/www
-- https://tcpschool.com/webbasic/component
-- https://tcpschool.com/webbasic/address
-- https://tcpschool.com/webbasic/works
+- [MDN: 웹의 동작 방식](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- [TCP School: 인터넷이란?](https://tcpschool.com/webbasic/intro)
+- [TCP School: 웹이란?](https://tcpschool.com/webbasic/www)
+- [TCP School: 인터넷 구성 요소](https://tcpschool.com/webbasic/component)
+- [TCP School: 인터넷 주소 체계](https://tcpschool.com/webbasic/address)
+- [TCP School: 웹의 동작 원리](https://tcpschool.com/webbasic/works)

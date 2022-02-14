@@ -52,8 +52,8 @@ tags:
 
 <출처>
 
-- https://developer.mozilla.org/ko/docs/Web/JavaScript/EventLoop
-- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts
-- https://meetup.toast.com/posts/89
-- https://medium.com/@vdongbin/javascript-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC-single-thread-event-loop-asynchronous-e47e07b24d1c
-- https://www.zerocho.com/category/JavaScript/post/597f34bbb428530018e8e6e2
+- [MDN: Event Loop](https://developer.mozilla.org/ko/docs/Web/JavaScript/EventLoop)
+- [MDN: General Asynchronous programming concepts](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts)
+- [NHN Cloud: 자바스크립트와 이벤트 루프](https://meetup.toast.com/posts/89)
+- [Javascript 동작 원리](https://medium.com/@vdongbin/javascript-%EC%9E%91%EB%8F%99%EC%9B%90%EB%A6%AC-single-thread-event-loop-asynchronous-e47e07b24d1c)
+- [호출 스택과 이벤트 루프](https://www.zerocho.com/category/JavaScript/post/597f34bbb428530018e8e6e2)

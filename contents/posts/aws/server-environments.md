@@ -118,4 +118,4 @@ EC2 인스턴스에 우리가 원하는 운영체제, 그리고 원하는 환경
 <출처>
 
 - 김담형, AWS 인프라 구축 가이드, 위키북스(2019)
-- https://post.naver.com/viewer/postView.nhn?volumeNo=27046347&memberNo=2521903
+- [블로그: 로드밸런서의 개념과 특징](https://post.naver.com/viewer/postView.nhn?volumeNo=27046347&memberNo=2521903)

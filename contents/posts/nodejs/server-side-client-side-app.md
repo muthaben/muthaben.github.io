@@ -32,5 +32,5 @@ series: TIR
 
 - 이선 브라운(한선용 역), 한 권으로 끝내는 Node & Express, 한빛미디어(2021)
 - 이웅모, 모던 자바스크립트 Deep Dive, 위키북스(2020)
-- https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94
-- https://medium.com/iotrustlab/ssr-server-side-rendering-%EA%B7%B8%EA%B2%8C-%EB%AD%94%EB%8D%B0-22d7e918ec1
+- [위키백과: 검색 엔진 최적화](https://ko.wikipedia.org/wiki/%EA%B2%80%EC%83%89_%EC%97%94%EC%A7%84_%EC%B5%9C%EC%A0%81%ED%99%94)
+- [SSR? Server-Side-Rendering? 그게 뭔데?](https://medium.com/iotrustlab/ssr-server-side-rendering-%EA%B7%B8%EA%B2%8C-%EB%AD%94%EB%8D%B0-22d7e918ec1)

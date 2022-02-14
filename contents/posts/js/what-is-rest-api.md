@@ -85,7 +85,7 @@ REST API에서 URI 설계만큼 중요한 것은 **정확한 응답 상태 코�
 
 <출처>
 
-- https://ko.wikipedia.org/wiki/API
-- https://poiemaweb.com/js-rest-api
-- https://meetup.toast.com/posts/92
-- https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C
+- [위키백과: API]( https://ko.wikipedia.org/wiki/API)
+- [Poiemaweb: REST API](https://poiemaweb.com/js-rest-api)
+- [NHN Cloud: REST API 제대로 알고 사용하기](https://meetup.toast.com/posts/92)
+- [위키백과: HTTP 상태 코드](https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C)

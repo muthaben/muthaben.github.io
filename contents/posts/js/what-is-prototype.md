@@ -26,7 +26,7 @@ tags:
 
 <출처>
 
-- https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Object_prototypes
+- [MDN: Object prototypes](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Object_prototypes)
 - 이웅모, 모던 자바스크립트 Deep Dive, 위키북스(2020)
 - 송형주, 고현준, 인사이드 자바스크립트, 한빛미디어(2014)
 - 정재남, 코어 자바스크립트, 위키북스(20201)와 인프런 강의
