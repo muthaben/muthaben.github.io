@@ -1,7 +1,7 @@
 ---
 title: "동시성과 이벤트 루프"
 date: 2022-01-30
-update: 2021-01-30
+update: 2021-02-14
 tags:
   - JavaScript
   - NodeJS
@@ -18,12 +18,13 @@ tags:
 
 ---
 
-자바스크립트 엔진은 `힙(heap)`과 `콜 스택(call stack)`으로 구성되어 있다.
+이벤트 루프는 브라우저에 내장되어 있는 기능이다. 구글 V8 엔진을 비롯한 대부분의 자바스크립트 엔진은 크게 2개의 영역, `콜 스택(call stack)`과 `힙(heap)`으로 구성되어 있다.
 
-- `힙(heap)`  
-  객체가 할당되는 구조화 되지 않은(unstructured) 메모리 영역이다. 실행 컨텍스트가 **참조**하는 대상이 저장되어 있다.
 - `콜 스택(call stack)`  
-  소스 코드 평가 과정에서 생성된 실행 컨텍스트가 **추가 및 제거**되는 스택 자료구조다. 보통 함수가 실행되는 순서를 기억하고 있다가 함수가 호출되면 스택에 추가되고, 해당 함수 실행이 종료되면 스택에서 제거된다.
+  소스 코드 평가 과정에서 생성된 **실행 컨텍스트가 추가 및 제거**되는 스택 자료구조다.  
+  보통 함수가 실행되는 순서를 기억하고 있다가 함수가 호출되면 함수 실행 컨텍스트가 스택에 추가되어 **순차적으로 실행**된다. 해당 함수 실행이 종료되면 스택에서 제거된다.
+- `힙(heap)`  
+  **객체가 할당되는 메모리 공간**으로 콜 스택의 요소인 **실행 컨텍스트가 힙에 저장된 객체를 참조**한다. 메모리에 값을 저장하려면 먼저 값을 저장할 메모리 공간의 크기를 결정해야 한다. 객체는 원시 타입의 값과 달리 그 크기를 런타임에 결정(동적 할당)해야하므로 객체가 저장되는 메모리 공간인 힙은 **구조화 되어 있지 않은 것**이 특징이다.
 
 ![javascript-runtime-environment](js-runtime-environment.svg)
 
@@ -52,6 +53,7 @@ tags:
 
 <출처>
 
+- 이웅모, 모던 자바스크립트 Deep Dive, 위키북스(2020)
 - [MDN: Event Loop](https://developer.mozilla.org/ko/docs/Web/JavaScript/EventLoop)
 - [MDN: General Asynchronous programming concepts](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts)
 - [NHN Cloud: 자바스크립트와 이벤트 루프](https://meetup.toast.com/posts/89)
