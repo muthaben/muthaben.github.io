@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Muthaben's Library]]></title><description><![CDATA[하려면 방법을 찾고 피하려면 핑계를 찾는다]]></description><link>https://muthaben.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Feb 2022 15:02:56 GMT</lastBuildDate><item><title><![CDATA[표현식과 문]]></title><description><![CDATA[…]]></description><link>https://muthaben.github.io/expression-statement/</link><guid isPermaLink="false">https://muthaben.github.io/expression-statement/</guid><pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;인간의 언어처럼 프로그래밍 언어도 &lt;strong&gt;문장&lt;/strong&gt;을 구성한다.&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Muthaben's Library]]></title><description><![CDATA[하려면 방법을 찾고 피하려면 핑계를 찾는다]]></description><link>https://muthaben.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Feb 2022 15:02:23 GMT</lastBuildDate><item><title><![CDATA[표현식과 문]]></title><description><![CDATA[…]]></description><link>https://muthaben.github.io/expression-statement/</link><guid isPermaLink="false">https://muthaben.github.io/expression-statement/</guid><pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;인간의 언어처럼 프로그래밍 언어도 &lt;strong&gt;문장&lt;/strong&gt;을 구성한다.&lt;br&gt;
 일정한 문법을 토대로 단어를 조합하여 하나의 문장을 만들어내는데 프로그래밍에서는 이러한 문장을 &lt;code class=&quot;language-text&quot;&gt;코드&lt;/code&gt;라 한다.&lt;br&gt;
 자바스크립트 코드를 구성하는 기본 단위는 값, 변수, 연산자, 키워드다.&lt;/p&gt;
 &lt;h2&gt;표현식(Expression)&lt;/h2&gt;
@@ -37,6 +37,21 @@ x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&qu
 &lt;p&gt;&amp;#x3C;출처&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;이웅모, 모던 자바스크립트 Deep Dive, 위키북스(2020)&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[비트와 바이트]]></title><description><![CDATA[컴퓨터는 디지털 정보 처리장치다. 디지털 정보는 비트(bit)를 이용해 표현할 수 있다. 비트는 이진 숫자(binary digit)로서 0 또는…]]></description><link>https://muthaben.github.io/bit-byte/</link><guid isPermaLink="false">https://muthaben.github.io/bit-byte/</guid><pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;컴퓨터는 디지털 정보 처리장치다.&lt;/li&gt;
+&lt;li&gt;디지털 정보는 비트(bit)를 이용해 표현할 수 있다.&lt;/li&gt;
+&lt;li&gt;비트는 이진 숫자(binary digit)로서 0 또는 1의 값을 가질 수 있다. &lt;/li&gt;
+&lt;li&gt;따라서 두 개의 값 중 하나를 선택하는 정보(참/거짓, 켜짐/꺼짐, 예/아니오 등)라면 무엇이든 비트로 표현할 수 있다.&lt;/li&gt;
+&lt;li&gt;여러 개의 비트를 사용하면 더 복잡한 정보도 표현할 수 있다.&lt;br&gt;
+(비트가 N개 있다면 표현할 수 있는 값의 갯수는 2&lt;sup&gt;N&lt;/sup&gt;이다.)&lt;/li&gt;
+&lt;li&gt;텍스트, 오디오, 이미지와 동영상은 물론 이러한 정보를 처리하는 프로그램을 구성하는 명령어 역시 모두 비트가 모여 표현된다.&lt;/li&gt;
+&lt;li&gt;바이트(byte)는 비트 8개의 모음으로 데이터 처리와 메모리 구성의 기본 단위다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;#x3C;출처&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;브라이언 W. 커니핸(하성창 역), 1일 1로그 100일 완성 IT 지식, 인사이트(2021)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8_(%EB%8B%A8%EC%9C%84)&quot;&gt;위키백과: 비트&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8&quot;&gt;위키백과: 바이트&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[TIR] 데브옵스와 CI/CD]]></title><description><![CDATA[데브옵스란(DevOps…]]></description><link>https://muthaben.github.io/devops-ci-cd/</link><guid isPermaLink="false">https://muthaben.github.io/devops-ci-cd/</guid><pubDate>Tue, 15 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;데브옵스란(DevOps)?&lt;/h2&gt;
 &lt;p&gt;소프트웨어는 개발부터 고객에게 배포될 때까지 개발, 테스트, 인프라 등 다양한 과정을 거치게 된다.&lt;br&gt;
 다양한 과정을 거치는 만큼 회사가 조금만 커져도 자연스럽게 각 단계를 진행하는 데 &lt;strong&gt;반복적이고 불필요한 작업과 오버헤드&lt;/strong&gt;가 생기기 마련이다.&lt;br&gt;
