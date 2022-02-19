@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Muthaben's Library]]></title><description><![CDATA[하려면 방법을 찾고 피하려면 핑계를 찾는다]]></description><link>https://muthaben.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Feb 2022 15:02:23 GMT</lastBuildDate><item><title><![CDATA[표현식과 문]]></title><description><![CDATA[…]]></description><link>https://muthaben.github.io/expression-statement/</link><guid isPermaLink="false">https://muthaben.github.io/expression-statement/</guid><pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;인간의 언어처럼 프로그래밍 언어도 &lt;strong&gt;문장&lt;/strong&gt;을 구성한다.&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Muthaben's Library]]></title><description><![CDATA[하려면 방법을 찾고 피하려면 핑계를 찾는다]]></description><link>https://muthaben.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 19 Feb 2022 15:01:24 GMT</lastBuildDate><item><title><![CDATA[[TIR] 함수 객체]]></title><description><![CDATA[…]]></description><link>https://muthaben.github.io/function-object/</link><guid isPermaLink="false">https://muthaben.github.io/function-object/</guid><pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;자바스크립트에서는 함수도 객체다.&lt;/li&gt;
+&lt;li&gt;함수의 기본 기능인 코드 실행뿐만 아니라, 함수 자체가 일반 객체처럼 프로퍼티들을 가질 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 358px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/32510b68ea4403116f7535fbc8d9d83f/270bd/func-as-obj.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 55.88235294117647%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABbklEQVQoz6WS3Y7TMBCF8zSIGy54QPYOicfhURbQbrVqQ7Nt2uY/8TixnT9/pGVZtBewVBzpyPbIc2aOPYEptEjc0MaN13nHLhbKQjCmp2lajLWc4b2/8DUE4zCIPjTouPZtYdCiEdUxThPDMDIt6y+xf2HgXCdL/UsTMPO/CEaPtD1UZvZ2glQK+slRm5pKl5jBoKxCGYUdLGVbIlboXMtJncgkQ1tN1VVLzBCku08ShTdsww8+jj5yzL+QFSXraMMpLUiLaknKUV2D6Q1VW1F3NdoJmc4u53P8Z0FHEN2+l/23txy+vvHb23e49gGdN9T7R8YRBjddZ3mwoTi7XRK3vne7RaTHT/PC8emKv+5TsqyTTbhnv8t9fMi5X61Y3T2QZjnfNyHrdUhnfo/Oqx1W+Z0kSbLMXuGrsiCKIo7HBKUUyelEkmQ4517M4l87NM1nefb2R1xhOX28kd7en9X8PE/M8/xE/7y/5g1/AJ38UvK5ZNMRAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;func as obj&apos; title=&apos;func as obj&apos; src=&apos;/static/32510b68ea4403116f7535fbc8d9d83f/270bd/func-as-obj.png&apos; srcset=&apos;/static/32510b68ea4403116f7535fbc8d9d83f/e7570/func-as-obj.png 170w,
+/static/32510b68ea4403116f7535fbc8d9d83f/f46e7/func-as-obj.png 340w,
+/static/32510b68ea4403116f7535fbc8d9d83f/270bd/func-as-obj.png 358w&apos; sizes=&apos;(max-width: 358px) 100vw, 358px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;일반 객체처럼 취급될 수 있는 함수는 다음과 같은 동작이 가능하다. 이와 같은 특징이 있는 함수를 &lt;strong&gt;일급 객체&lt;/strong&gt;라고 부른다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;리터럴에 의해 생성&lt;/li&gt;
+&lt;li&gt;변수나 배열의 요소, 객체의 프로퍼티 등에 할당 가능&lt;/li&gt;
+&lt;li&gt;함수의 인수로 전달 가능&lt;/li&gt;
+&lt;li&gt;함수의 리턴값으로 리턴 가능&lt;/li&gt;
+&lt;li&gt;동적으로 프로퍼티를 생성 및 할당 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;#x3C;80 ~ 81쪽&gt;&lt;/p&gt;
+&lt;h1&gt;함수 객체의 기본 프로퍼티&lt;/h1&gt;
+&lt;p&gt;함수는 일반적인 객체의 기능에 추가로 &lt;strong&gt;호출됐을 때 정의된 코드를 실행&lt;/strong&gt;하는 기능을 가지고 있다.&lt;br&gt;
+또한 일반 객체와는 다르게 추가로 함수 객체만의 표준 프로퍼티가 정의되어 있다. 다음 예제 코드로 add() 함수 객체의 프로퍼티를 살펴보자.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 479px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/b81a2a1db4bac3c60f03f6ac60db2ec4/001e3/properties-of-function.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 167.64705882352942%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAET0lEQVRIx51Wi3LaSBD0///X1V0qd3YuwcSAeQgJ9H7tS9JKoq9XihP77MR2qBotUNTQPTPds1fCL6HPFbJYIU0FhNDQukHXdnCvy+WC97yu2tJgCtOhbVrYfpyS/G5cPWSekfDLcXg3qicI4yhBluUoihJxnCBJq+9/8FsIT2GA1XrJ+p2xC0Lc+jlUU8CB/K2EceIj28XIzynyPEVWxIgK/xnKN1MuixTqpNHUDYxqXBmhu/pZkofPryI8hwdEXoAsYmzvUMoEcR1gGEcMQw+MFpfBvinZhND3Utx+9rFk3H0NsLjz8O+XPRa3HpbrGB/WBl+8BsMD0l/QnRCmi0/wrz8i/HID/+YfnG6ukS6/IlneQm5WiBdrJLcrNPt79PdL9N49BrKxfG/XC/T+DnazwFjm3wa7rlCtVlC7LQQbc95ukfgeNBvEaZ8oT2E7XDoXLUvQz2fPcxjmzyzRlLAfL6hPCWTMxIVGmmUoqhrDZaZ3eYXmM8ot/7U+3EMlMcpaIzidkBfFiz/GW5riuqniDJph6hpKVFCa2m5bNE2DxjTo++HNRnHVsw7idIb0A1IPYFjcrhsghUBJ6k6StnvH2LiHjDRUqmEbO9VuoEG4GC/ju4xhriGpVZ5HhB5MfEaVSg55hvQU4+SdIXKBoeth7QClNKqyol9q1MJ55xxKKfTDXJarhh5YhxWawrCWcopWtExEo634Q20n5G3bo65ZhrJ8lrBm7TtrvyVk0UUi0EkmOdecPyYShh1X0Ea/n7JDKFMiMQNMzq4qy39vmMz8aMQ4/jjH8ZWxYZfLMEaVZDwTlAktLKKdxREM6Xx3mcdI/ofqsRNdtUWG4OOf1OxnRJ9vEH66Rr5a4vj3B2z++gN6cY1hu8R43GLY3WE4rDGEPizf2+1XansDu19hlPUDQlIMTqjXnMNtAMFQQYzM87G/XcDfblCmKTQ1r8oCjagxkhWcfl/SsgMrKg0ZKupZQ0QKIpTQ0iLNK+wPB+wOHra7Pe63O9ZXzjRf0PlE2T1EIaZx0ZxBGYopTG5QcV8baZAkOfb7HXzfR8T6RlGEMAy51OJJ95c524+EdU4NR/MMykRCMHEeF1xcOY7H47QV8zznmU0nftUU95DVjMzNoeRuSbMCB1J1UZbVT2fusVl8H5uRxdSUlE7UnJBI66im8yhUtbuWGPhHHyfa2pFnnCST1Nz8vojQGYBLaDI9U3ZqSZzkOhhjUVWCSD0cqXd3hmFEByqeDP4T+3IIneinJvDiJE71RL+TDb/vINkU14zNZoMdu+wHAQrq2fwsoRuAnm7iNKwowZaJDGkqqemLdjLaOTo47xw4d+4cv83ds4TuUfE+Y0WHoaVF8VrX012sHSFYR98/TiPimjOOlxcb82TRd9wpmdMxh7hIC3ZcIOfcRdT18RiQsuQaMBPFx8X/6QpwBU546wrPIW9eKTtbTbPnlFE8WlYuiaP5WvwHdFVLNL8ItJMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;properties of function&apos; title=&apos;properties of function&apos; src=&apos;/static/b81a2a1db4bac3c60f03f6ac60db2ec4/001e3/properties-of-function.png&apos; srcset=&apos;/static/b81a2a1db4bac3c60f03f6ac60db2ec4/e7570/properties-of-function.png 170w,
+/static/b81a2a1db4bac3c60f03f6ac60db2ec4/f46e7/properties-of-function.png 340w,
+/static/b81a2a1db4bac3c60f03f6ac60db2ec4/001e3/properties-of-function.png 479w&apos; sizes=&apos;(max-width: 479px) 100vw, 479px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;결과를 살펴보면 add() 함수는 arguments, caller, length 등과 같은 다양한 프로퍼티가 기본적으로 생성된 것을 확인할 수 있다. 이러한 프로퍼티들이 함수를 생성할 떄 포함되는 표준 프로퍼티다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;arguments 프로퍼티&lt;br&gt;
+&lt;strong&gt;함수를 호출할 떄 전달된 인자값&lt;/strong&gt;을 나타내는데 현재는 add() 함수가 호출된 상태가 아니므로 null 값이 출력됐다.&lt;/li&gt;
+&lt;li&gt;caller 프로퍼티&lt;br&gt;
+&lt;strong&gt;자신을 호출한 함수&lt;/strong&gt;를 나타낸다. 예제에서는 add() 함수를 호출하지 않았으므로 null 값이다.&lt;/li&gt;
+&lt;li&gt;length 프로퍼티: 함수를 작성할 때 정의한 &lt;strong&gt;인자의 개수&lt;/strong&gt;를 나타낸다.&lt;/li&gt;
+&lt;li&gt;name 프로퍼티&lt;br&gt;
+&lt;strong&gt;함수의 이름&lt;/strong&gt;을 나타낸다. 익명함수라면 프로퍼티는 빈 문자열이 된다.&lt;/li&gt;
+&lt;li&gt;[[Prototype]] 프로퍼티&lt;br&gt;
+자신의 &lt;strong&gt;부모 역할을 하는 프로토타입 객체&lt;/strong&gt;를 가리킨다. ECMA 표준에서는 add() 와 같이 함수 객체의 부모 역할을 하는 프로토타입 객체를 &lt;strong&gt;Function.prototype 객체&lt;/strong&gt;라고 명명하고 있으며, 이것 역시 &lt;strong&gt;함수 객체&lt;/strong&gt;라고 정의하고 있다.&lt;/li&gt;
+&lt;li&gt;prototype 프로퍼티&lt;br&gt;
+함수가 생성될 때 만들어지며 constructor 프로퍼티 하나만 있는 객체를 가리킨다. 그리고 prototype 프로퍼티가 가리키는 프로토타입 객체의 유일한 constructor 프로퍼티는 자신과 연결된 함수를 가리킨다. 즉, 함수 객체와 프로토타입 객체는 각각 prototype과 constructor라는 프로퍼티로 서로를 참조하게 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;
+&lt;summary&gt;Function.prototype 객체의 프로토타입 객체는?&lt;/summary&gt;
+&lt;div markdown=&quot;1&quot;&gt;
+&lt;p&gt;앞 설명에서 &apos;모든 함수들의 부모 객체는 Function.prototype 객체&apos;라고 했다. 그런데 ECMAScript 명세서에는 Function.prototype은 함수라고 정의하고 있다. 그렇다면 이러한 규칙에 의해 Function.prototype 함수 객체도 결국 함수이므로 자기 자신을 부모로 갖는 것인가? 라는 의문이 생기는 독자가 있을지도 모르겠다.&lt;/p&gt;
+&lt;p&gt;ECMAScript 명세서에는 예외적으로 Function.prototype 함수 객체의 부모는 자바스크립트의 모든 객체의 조상격인 &lt;strong&gt;Object.prototype 객체&lt;/strong&gt;라고 설명하고 있다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;prototype 프로퍼티와 [[Prototype]] 프로퍼티&lt;/summary&gt;
+&lt;div markdown=&quot;1&quot;&gt;
+&lt;p&gt;두 프로퍼티 모두 &lt;strong&gt;프로토타입 객체&lt;/strong&gt;를 가리킨다는 점에서는 공통점이 있지만, 관점에 차이가 있다.&lt;br&gt;
+모든 객체에 있는 내부 프로퍼티인 [[Prototype]] 프로퍼티는 객체 입장에서 자신의 부모 역할을 하는 프로토타입 객체를 가리킨다.&lt;br&gt;
+반면에 함수 객체가 가지는 prototype 프로퍼티는 이 함수가 생성자로 사용될 때 이 함수를 통해 생성된 객체의 부모 역할을 하는 프로토타입 객체를 가리킨다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/details&gt;  
+&lt;details&gt;
+&lt;summary&gt;함수 객체와 프로토타입 객체와의 관계&lt;/summary&gt; 
+&lt;div markdown=&quot;1&quot;&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/2fc77a1096ef2c1101524d937e26fa03/d703b/function-obj-prototype-obj.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 175.8823529411765%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAYAAACU9ioYAAAACXBIWXMAABYlAAAWJQFJUiTwAAAFB0lEQVRIx41WaW/bRhT0//8nBfqlQJsCDdIgKZK4ie0cli2JkiiKlHiI1/IUT01nl7YsnymB5YoCMTvvzbz3eNJmNVItQnLlIzYSzEYhLD2B4xQI/AJJkqCuagB77PfDgtzlP+pZPR6uk7ppUMUlKq+ABK+CHboaL179/g78cMjNAScNAdu+leejl/euQmPNUV2do9Yu0c5GaOdXqK4v0Gg/0IvwyUNuQU+iWODqeoLpdI7VeoMvbz7i3S+/4+zPdzh/9QZnr97iyx9v8em313j/6ytc/PUPjFUEY53AsAT3FHnR3THMsgzOdottGCESMSZLH980gWtd4ONVgbHZ4XTU4P3XGu8uKrw+3eHtqcCH8xR/nybcM6RZq3Lc9wSsuw7eYoFgdI1otkCsaciXOgrLwMXnGdaTGTLTQKQvkVsm9u2dAn1/J8ghZHlrohDFSEN8NkH8eYzk+xSCAN7Vd2zHl4jnU4TaGNlyBnStUnhA2h/UP4R8+7DLGsSrGOk2Q5YWCIXAEZm75N+zy/7w+/aMA2AlSkTzAIkdwQ8Keq8ZXmJcaj2wx/F+fN0xJGBIwB1VLxc6qtUKtW2jMpk35nkwtATunwU75LDjS7EbIzYjCItVY/qIfB/2eg3Pccg44IrgBgnCSBwAX2C4R5qkWNOHnuvBtl04rgtvG2DrhwgDH37S4mxZQ3NYWc0LIQ+lBPhRjLXtwCbgsLsEi7kSuGTb9/2NVfYv51DeypBMptewJ1cwR9/h8LdY6ZidnUL79xNs/td13b1QnxJpCJm33Pdo6CkClmA4nsL7MUJuLOFONIw/vIc/GaGqKjylw0OWgyjMYbQJEc9oG4OiGDGSNT0Z5DBNF9pszjWD53nYskx9P0DIUr1NwzFjBdjS/ZFDhSWYFUOY8eBJP0WS1lgul9C0GRYs0cvRCPP5AkKI520jAUM7RMJKkYCxESJaBBBrgZjPobklQEFgC+PxGCt61LLWaleLXjVNC3meP2C4GtjJlSiwECIq6Ucbum4Q0FBsDYIsdB11XUP209slUzAA9p0ydkoQyTByuLN7z+dzBaKxA8lR8JIYj0JOfILI3BkBcrGDyxRYDMUwVsrg8vTdbqdYScXlLq3Utu09YYb2Rbp5mitAmb9Q48Bahig5pHZlhTRtmTOLXX2K6+sxJpMJU6Ar1dM0faIfEjAVbFtOqvInwQTruqBtymKnlJZ20dkjZRoWbB5ShIA1nmX584C5m6qOE0w8iGVEhjmKrEQcV/Sejx+Xl/j67ZtiqlMcz9secnsPUD607H+KIQeQbGVxQJGiBF0j89SrvJVlyRB5cF6gKAplE0nmEWDP9pVsE+xokaaoUfgZqnyHLC8pRMewUg5+RwFJ0JfK70blThm7oVUku3ybK/BUMqXiK3PwnTSwf9N5nmsQJ7iZDX3Xq5BVhbgUJCmGdkV7tAy3lca96dz/awTISxo73sSo2FSrjY06pjArAw1HQc98HU+j5429V4NQjbOK4RVuhiKk/2gXwcEvDXww7tH+VG+8N0alWiIgQ4+1zEFlUwRxY4mqan9ackeiDC9IG7h0/obhWRxOm80Grutwzjg09EpVxVP97xFDZ9vBtEvoZoKFIaAtQsxo6qUlP4KkobdspqHqf92RKM8CrjY9y8jEZKrRay4rwCDbDCGrIyt+3vIfhaxbNfywhOPlBGn4JZYjShqETF9e7g9fVQ/t8tz6D9NjgDcWt0dvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;function-obj-prototype-obj&apos; title=&apos;function-obj-prototype-obj&apos; src=&apos;/static/2fc77a1096ef2c1101524d937e26fa03/ca1dc/function-obj-prototype-obj.png&apos; srcset=&apos;/static/2fc77a1096ef2c1101524d937e26fa03/e7570/function-obj-prototype-obj.png 170w,
+/static/2fc77a1096ef2c1101524d937e26fa03/f46e7/function-obj-prototype-obj.png 340w,
+/static/2fc77a1096ef2c1101524d937e26fa03/ca1dc/function-obj-prototype-obj.png 680w,
+/static/2fc77a1096ef2c1101524d937e26fa03/d703b/function-obj-prototype-obj.png 786w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;myFunction() 함수가 생성되면서 함수의 prototype 프로퍼티에는 이 함수와 연결된 프로토타입 객체가 생성된다.&lt;/li&gt;
+&lt;li&gt;myfunction.prototype은 myFunction() 함수의 프로토타입 객체를 의미한다.&lt;/li&gt;
+&lt;li&gt;myFunction() 함수의 프로토타입 객체에는 constructor 프로퍼티와 [[Prototype]] 프로퍼티가 있다. 전자는 함수의 프로토타입 객체이므로 있는 것이고, 후자는 프로토타입 객체 역시 자바스크립트 객체이므로 있는 것이다.&lt;/li&gt;
+&lt;li&gt;myFunction.prototype.constructor의 값에는 프로토타입 객체와 매핑된 함수가 나타난다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이렇듯 함수 객체와 프로토타입 객체는 서로 밀접하게 연결돼 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/dc36fba7754550b2b4464b31d4e8b7b9/600ec/prototype-constructor.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 32.94117647058823%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABD0lEQVQoz4WRC2sCMRCE/f9/rGBpK6i0FqVqLVIfd56X13m5nc6ulVosdOEjhMxOZpOeiKDruj/RM63r9T9tL8aIlJJxas40zXmvZyq8iE2n+qZBOrXkhNS2tg8hmDENk4lXn4L+SHBPlmsaSAvvPS6lpo5NcthDhg+QQR8yfoI83gHzqZnmnH8MiwBMPoBXsnU0QEZZlnDOoa5rMz9UFQ8ysFkAb2OmmAKzIRArM+zUUGMjMMl8AryT9QyYjiDuiIpmkal01BAivKtxpPRlRXjxYgc8c11uYM+UM0f22qCNZYGw2yIwVSz2iJqMXJf3jokjilIJTBywL3RNNom9of2cwoZffH/GLTdKQ820vgAUBiAxXVuqHQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;prototype-constructor&apos; title=&apos;prototype-constructor&apos; src=&apos;/static/dc36fba7754550b2b4464b31d4e8b7b9/ca1dc/prototype-constructor.png&apos; srcset=&apos;/static/dc36fba7754550b2b4464b31d4e8b7b9/e7570/prototype-constructor.png 170w,
+/static/dc36fba7754550b2b4464b31d4e8b7b9/f46e7/prototype-constructor.png 340w,
+/static/dc36fba7754550b2b4464b31d4e8b7b9/ca1dc/prototype-constructor.png 680w,
+/static/dc36fba7754550b2b4464b31d4e8b7b9/02d09/prototype-constructor.png 1020w,
+/static/dc36fba7754550b2b4464b31d4e8b7b9/600ec/prototype-constructor.png 1126w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/details&gt;
+&lt;p&gt;&amp;#x3C;출처&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인사이드 자바스크립트, 송형주, 고현준, 한빛미디어(2014)&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[표현식과 문]]></title><description><![CDATA[…]]></description><link>https://muthaben.github.io/expression-statement/</link><guid isPermaLink="false">https://muthaben.github.io/expression-statement/</guid><pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;인간의 언어처럼 프로그래밍 언어도 &lt;strong&gt;문장&lt;/strong&gt;을 구성한다.&lt;br&gt;
 일정한 문법을 토대로 단어를 조합하여 하나의 문장을 만들어내는데 프로그래밍에서는 이러한 문장을 &lt;code class=&quot;language-text&quot;&gt;코드&lt;/code&gt;라 한다.&lt;br&gt;
 자바스크립트 코드를 구성하는 기본 단위는 값, 변수, 연산자, 키워드다.&lt;/p&gt;
 &lt;h2&gt;표현식(Expression)&lt;/h2&gt;
