@@ -40,6 +40,8 @@ tags:
 📝 패킷(packet)  
 웹 서버에서 클라이언트로 전송되는 데이터의 형식이다. 수천 개의 작은 덩어리로 구성되어 있어서 다양한 사용자가 동시에 같은 웹 페이지 데이터를 다운로드 할 수 있다.
 
+---
+
 <출처>
 
 - [MDN: 웹의 동작 방식](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works)

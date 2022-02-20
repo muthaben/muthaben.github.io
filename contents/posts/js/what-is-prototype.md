@@ -24,6 +24,8 @@ tags:
 생성자 함수(Constructor)를 new 연산자와 함께 호출하면 Constructor에 정의되어 있는 내용을 바탕으로 인스턴스(instance) 생성된다. 이 인스턴스에는 **[[Prototype]] 프로퍼티**가 자동 부여되고 이 프로퍼티는 생성자 함수의 **prototype 프로퍼티**를 참조한다.  
 다만 [[Prototype]] 프로퍼티는 콘솔에 표시되는 내용일 뿐이며 실제로 이 프로퍼티를 이용해 prototype에 직접 접근할 수는 없다.
 
+---
+
 <출처>
 
 - [MDN: Object prototypes](https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Object_prototypes)
